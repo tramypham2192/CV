@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form id="myForm">
+		First name: <input type="text" name="fname" value="tra my"><br>
+		Last name: <input type="text" name="lname" value="pham"><br>
+		<input type="submit" value="Submit">
+	</form>
+	<buttton onclick="myFunction()">Click me</buttton>
+	<p id="demo"></p>
+	<script type="text/javascript">
+		function myFunction(){
+			var x = document.getElementById("myForm").lname.value
+			document.getElementById("demo").innerHTML = x
+		}
+	</script>
+</body>
+</html>
