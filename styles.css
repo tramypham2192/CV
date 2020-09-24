@@ -1,0 +1,38 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    align-content: center;
+}
+
+/* pseudo - classes cho phan Courses I have enroll in */
+
+
+.box {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: while; /* Green */
+    border: 1px solid blue;
+    color: blue;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
